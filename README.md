@@ -12,9 +12,9 @@ This is, Multidimensional Scaling (MDS) plots and heatmap plots based on Hamming
     ```
 ## Visualizations
 * Set `PLOTS_OUT_DIR` in `definitions.py`
+* Create `PLOTS_OUT_DIR`
 * Run unit tests in `plots/test_make_plots.py` to generate T-REX visualizations
-* T-REX visualizations are stored in directory `out`
-
+* T-REX visualizations are stored in `PLOTS_OUT_DIR`
 
 ## U-Net
 The U-Net model used in this study can be found in `u_net/model.py`.
